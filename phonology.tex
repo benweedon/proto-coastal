@@ -1,4 +1,40 @@
 \documentclass[main.tex]{subfiles}
 
+\newcommand{\feat}[1]{$\left[ \begin{array}{l}\text{#1}\end{array}\right]$}
+
 \begin{document}
+\subsection{Consonants}
+\begin{tabular}{| c | c | c | c | c | c | c | c |}
+    \hline
+                        & \thead{Labial} & \thead{Inter-\\Dental} & \thead{Alveolar} & \thead{Post-\\alveolar} & \thead{Retroflex}  & \thead{Palatal}    & \thead{Velar} \\\hline
+    \thead{Nasal}       & \textipa{m}    &                        & \textipa{n}      &                         &                    &                    & \textipa{(N)} \\\hline
+    \thead{Stop}        & \textipa{p b}  & \textipa{\|[t \|[d}    &                  &                         &  \textipa{\:t \:d} &                    & \textipa{k g} \\\hline
+    \thead{Fricative}   & \textipa{f v}  &                        & \textipa{s z}    & \textipa{S Z}           &                    & \textipa{\c{c}}    &               \\\hline
+    \thead{Approximant} &                & \multicolumn{3}{c|}{\textipa{l}}                                    &                    & \textipa{j}        & \textipa{w}   \\\hline
+    \thead{Trill}       &                & \multicolumn{3}{c|}{\textipa{r (R)}}                                &                    &                    &               \\\hline
+\end{tabular}
+
+The interdental stops \textipa{/\|[t/} and \textipa{/\|[d/} are aspirated.
+
+The trill \textipa{/r/} becomes the tap \textipa{[R]} in [environment].
+
+\subsection{Vowels}
+\subsubsection{Monophthongs}
+\begin{tabular}{| c | c | c | c | c |}
+    \hline
+                  & \multicolumn{2}{c|}{\thead{Front}}  & \multicolumn{2}{c|}{\thead{Back}}   \\\hline
+                  & \thead{unrounded} & \thead{rounded} & \thead{unrounded} & \thead{rounded} \\\hline
+    \thead{Close} & \textipa{i}       &                 &                   & \textipa{u}     \\\hline
+    \thead{Mid}   & \textipa{e}       &                 & \textipa{7}       &                 \\\hline
+    \thead{Open}  &                   &                 &                   & \textipa{6}     \\\hline
+\end{tabular}
+
+\subsubsection{Dipthongs}
+\begin{multicols}{5}
+    \begin{itemize}
+        \item \textipa{7I}
+        \item \textipa{6I}
+        \item \textipa{u6}
+    \end{itemize}
+\end{multicols}
 \end{document}
