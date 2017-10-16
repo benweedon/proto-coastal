@@ -1,0 +1,15 @@
+sudo: required
+dist: trusty
+language: python
+python: '3.6'
+install: chmod +x install_deps.sh && ./install_deps.sh
+script: mkdir _build && make
+deploy:
+  provider: pages
+  github_token:
+    secure: mwWykugSjFHt5+HjeO3h6dIYz6uzYTa9gRh6vVyTV2763l+3dyZSyfV5AISomSUfMYVQEWF4gq0jpC6DDD8pQxQePSf172XxkXJ/U70oaxYmEuNan9bOqihK1NuGvsBXmpbTL6f91VRhn7ZJcVGAvNOGgj241hBzWZc/wZ6UhGLptoZQlGn2UsHO5iOq4aQMpoHutJjhQvb0FQGwf+ZwD/JqeF/eCHu58VMoGvp8H7rjPrZ5OHRaZF7quffttP7nQIUJf6b1TxTO1ja65PDCrDmrxCerIqg586flm/WWMyQa7aZcc44RRFn2v+4ubTAjF6v8eZKhT+4pMXSkGCnRD9r/SVnOCYAWD5doPexcl5XKrw0G09Y5CCF48BzYhuYL9d11A+QIoNJHyutwDHNc8zF449kzUega7sMXWE1zHBEGt2Vf1J1lahHRgwmJyAl9C6aHJFkWcJfeNXO2kNCxQp6U1ajMs84YY6V0/lOM+Y68pqNzd7Zsqloxc2oTGZF9v81QoZoiIDfsQLwwl2+uoJLR4tg5mOqO6hduupOU6uFYOe+09OLmFWHIH4P59QO8q8QsFPtofhG0KJ8xis99pnWx2QMzL6evfEHylPz2e5lWr3StGaPjf02JkxkUZ02FDXxKoOB0Q0oN+OoHp6kupZWGmPTE4CdBjxo8W42UgG8=
+  local_dir: _build
+  skip_cleanup: true
+  on:
+    repo: benweedon/proto-coastal
+    branch: master
