@@ -30,3 +30,10 @@ Open                                           [Q]{.ipa}
 * [7I]{.ipa}
 * [QI]{.ipa}
 * [uQ]{.ipa}
+
+## Stress
+
+_Proto-Coastal_ stress falls on the leftmost heavy syllable (syllable with a
+coda). If there are no heavy syllables in the word, it falls on the second
+syllable. Secondary stress falls on every other syllable away from the primary
+stress.
