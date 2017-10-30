@@ -18,12 +18,12 @@ The trill [/r/]{.ipa} becomes the tap [[4]]{.ipa} in [environment].
 
 ### Monophthongs
 
-       Front        -->            Back         -->
------ ------------ -------------- ------------ ------------
-      Unrounded    Rounded        Unrounded    Rounded
-Close [i]{.ipa}                                [u]{.ipa}
-Mid   [e]{.ipa}                   [7]{.ipa}
-Open                                           [Q]{.ipa}
+      Front        -->            Back         -->
+---- ------------ -------------- ------------ ------------
+     Unrounded    Rounded        Unrounded    Rounded
+High [i]{.ipa}                                [u]{.ipa}
+Mid  [e]{.ipa}                   [7]{.ipa}
+Low                                           [Q]{.ipa}
 
 ### Diphthongs
 
