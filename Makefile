@@ -24,4 +24,17 @@ latex: *.md
 		examples.md\
 		lexicon.md\
 
+html: *.md
+	pandoc -s -o _build/proto-coastal.html --filter linguafilter\
+		proto-coastal.md\
+		introduction.md\
+		phonology.md\
+		morphology.md\
+		syntax.md\
+		semantics.md\
+		pragmatics.md\
+		writing.md\
+		examples.md\
+		lexicon.md\
+
 .PHONY: build
