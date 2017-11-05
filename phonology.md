@@ -23,13 +23,12 @@ The trill [/r/]{.ipa} becomes the tap [[4]]{.ipa} in [environment].
      Unrounded    Rounded        Unrounded    Rounded
 High [i]{.ipa}                                [u]{.ipa}
 Mid  [e]{.ipa}                   [7]{.ipa}
-Low                                           [Q]{.ipa}
+Low               [&]{.ipa}                   [Q]{.ipa}
 
 ### Diphthongs
 
-* [7I]{.ipa}
-* [QI]{.ipa}
-* [uQ]{.ipa}
+* [i7]{.ipa}
+* [&Q]{.ipa}
 
 ## Stress
 
